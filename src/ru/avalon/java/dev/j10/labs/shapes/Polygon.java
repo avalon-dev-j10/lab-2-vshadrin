@@ -1,5 +1,7 @@
 package ru.avalon.java.dev.j10.labs.shapes;
 
+import java.util.Random;
+
 /**
  * Абстрактное представление о многоугольнике.
  * <p>
@@ -9,7 +11,7 @@ package ru.avalon.java.dev.j10.labs.shapes;
  *
  * @see <a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA">Многоугольник</a>
  */
-public interface Polygon {
+public interface Polygon extends Shape {
 
     /*
      * TODO: Закончить определение интерфейса 'Polygon'
@@ -18,7 +20,7 @@ public interface Polygon {
      *
      * 2. При необходимости, дополните структуру интерфеса.
      */
-
+    
 
     /**
      * Возвращает периметр многоугольника.
